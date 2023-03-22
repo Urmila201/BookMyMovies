@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    color: white;
+    background-color: rgb(42,42,68);
+}
+.left img{
+    width: 22%;
+}
+.left input{
+    margin-inline: 11px;
+    width: 420px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 2px;
+}
+.fnav .left{
+    display: flex;
+    margin-top: 10px;
+}
+.fnav .right{
+    display: flex;
+    margin-top: 16px;
+}
+.right p{
+    margin-inline: 22px;
+    font-size: 22px;
+}
+.right button{
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(226, 32, 65);
+    color: white;
+}
+.right button:hover{
+    cursor: pointer;
+    font-weight: 600;
+    color:white;
+    background-color: blue;
+}
+.right i{
+    margin-inline: 22px;
+    font-size: 22px;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding:9px;
+    background-color: rgb(26,26,48);
+    color: white;
+}
+.sec-nav .s-left{
+    display: flex;
+}
+.sec-nav .s-right{
+    display: flex;
+}
+.sec-nav p:hover{
+    color: rgb(245, 5, 45);
+    cursor: pointer;
+    font-weight: 600;
+}
+.s-left p{
+    margin-inline-start: 18px;
+}
+.s-right p{
+    margin-inline-start: 18px;
+}
+.main img{
+    width: 100%;
+}
+.container h2{
+text-align: center;
+padding: 22px;
+}
+.container .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card img{
+    width: 18%;
+    margin-block:15px;
+    border-radius: 5px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 44px;
+}
+.premiere{
+    background-color: rgb(8,8,19);
+    color: white;
+    padding: 33px;
+    margin-top: 44px;
+}
+.containers h2{
+    margin-top: 11px;
+    text-align: center;
+    margin-bottom: 11px;
+}
+h3{
+    margin-top: 50px;
+}
+.container .card{
+    margin-top: 11px;
+}
+.footer{
+    background-color: rgb(5, 5, 16);
+    padding: 33px;
+    margin-top: 44px;
+    border-top: 2px solid gray;
+}
+.footer img{
+    display: flex;
+    width: 33%;
+    margin-left: 36%;
+}
+.footer .icon{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width: 10rem;
+    text-align: center;
+}
+.icons i{
+    font-size: 36px;
+    margin-top: 10px;
+}
+#select{
+    height: 2rem;
+    width:10rem;
+    margin-top: 20px;
+    margin-right: 10rem;
+    float: left;
+    border-radius: 5px;
+    /* background-color: rgb(55, 118, 173); */
+    color:purple;
+    text-align: center;
+}
+p{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+color:white;
+/* text-align: center; */
+}
